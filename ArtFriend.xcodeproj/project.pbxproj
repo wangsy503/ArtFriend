@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF0000010000000000000001 /* ArtFriendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0000020000000000000001 /* ArtFriendApp.swift */; };
+		AF0000010000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0000020000000000000002 /* ContentView.swift */; };
+		AF0000010000000000000003 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0000020000000000000003 /* Artwork.swift */; };
+		AF0000010000000000000004 /* Museum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0000020000000000000004 /* Museum.swift */; };
+		AF0000010000000000000005 /* Exhibition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0000020000000000000005 /* Exhibition.swift */; };
+		AF0000010000000000000006 /* OCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0000020000000000000006 /* OCRService.swift */; };
+		AF0000010000000000000007 /* LabelParserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0000020000000000000007 /* LabelParserService.swift */; };
+		AF0000010000000000000008 /* ArtworkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0000020000000000000008 /* ArtworkListView.swift */; };
+		AF0000010000000000000009 /* ArtworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0000020000000000000009 /* ArtworkDetailView.swift */; };
+		AF0000010000000000000010 /* AddArtworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0000020000000000000010 /* AddArtworkView.swift */; };
+		AF0000010000000000000011 /* MuseumListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0000020000000000000011 /* MuseumListView.swift */; };
+		AF0000010000000000000012 /* MuseumDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0000020000000000000012 /* MuseumDetailView.swift */; };
+		AF0000010000000000000013 /* ExhibitionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0000020000000000000013 /* ExhibitionListView.swift */; };
+		AF0000010000000000000014 /* ExhibitionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0000020000000000000014 /* ExhibitionDetailView.swift */; };
+		AF0000010000000000000015 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0000020000000000000015 /* CameraView.swift */; };
+		AF0000010000000000000016 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0000020000000000000016 /* ImagePicker.swift */; };
+		AF0000010000000000000017 /* FilterChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0000020000000000000017 /* FilterChip.swift */; };
+		AF0000010000000000000018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF0000020000000000000018 /* Assets.xcassets */; };
+		AF0000010000000000000021 /* test_label.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF0000020000000000000021 /* test_label.jpg */; };
+		AF0000010000000000000020 /* LabelParserTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0000020000000000000020 /* LabelParserTestView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF0000020000000000000001 /* ArtFriendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtFriendApp.swift; sourceTree = "<group>"; };
+		AF0000020000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF0000020000000000000003 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		AF0000020000000000000004 /* Museum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Museum.swift; sourceTree = "<group>"; };
+		AF0000020000000000000005 /* Exhibition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exhibition.swift; sourceTree = "<group>"; };
+		AF0000020000000000000006 /* OCRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRService.swift; sourceTree = "<group>"; };
+		AF0000020000000000000007 /* LabelParserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelParserService.swift; sourceTree = "<group>"; };
+		AF0000020000000000000008 /* ArtworkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkListView.swift; sourceTree = "<group>"; };
+		AF0000020000000000000009 /* ArtworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkDetailView.swift; sourceTree = "<group>"; };
+		AF0000020000000000000010 /* AddArtworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddArtworkView.swift; sourceTree = "<group>"; };
+		AF0000020000000000000011 /* MuseumListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumListView.swift; sourceTree = "<group>"; };
+		AF0000020000000000000012 /* MuseumDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumDetailView.swift; sourceTree = "<group>"; };
+		AF0000020000000000000013 /* ExhibitionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhibitionListView.swift; sourceTree = "<group>"; };
+		AF0000020000000000000014 /* ExhibitionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhibitionDetailView.swift; sourceTree = "<group>"; };
+		AF0000020000000000000015 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		AF0000020000000000000016 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		AF0000020000000000000017 /* FilterChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterChip.swift; sourceTree = "<group>"; };
+		AF0000020000000000000018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF0000020000000000000019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF0000020000000000000020 /* LabelParserTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelParserTestView.swift; sourceTree = "<group>"; };
+		AF0000020000000000000021 /* test_label.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_label.jpg; sourceTree = "<group>"; };
+		AF0000030000000000000001 /* ArtFriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtFriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF0000040000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF0000050000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				AF0000050000000000000002 /* ArtFriend */,
+				AF0000050000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF0000050000000000000002 /* ArtFriend */ = {
+			isa = PBXGroup;
+			children = (
+				AF0000020000000000000001 /* ArtFriendApp.swift */,
+				AF0000050000000000000004 /* Models */,
+				AF0000050000000000000005 /* Services */,
+				AF0000050000000000000006 /* Views */,
+				AF0000050000000000000010 /* Components */,
+				AF0000020000000000000018 /* Assets.xcassets */,
+				AF0000020000000000000019 /* Info.plist */,
+				AF0000020000000000000021 /* test_label.jpg */,
+			);
+			path = ArtFriend;
+			sourceTree = "<group>";
+		};
+		AF0000050000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF0000030000000000000001 /* ArtFriend.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF0000050000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF0000020000000000000003 /* Artwork.swift */,
+				AF0000020000000000000004 /* Museum.swift */,
+				AF0000020000000000000005 /* Exhibition.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AF0000050000000000000005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AF0000020000000000000006 /* OCRService.swift */,
+				AF0000020000000000000007 /* LabelParserService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AF0000050000000000000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF0000020000000000000002 /* ContentView.swift */,
+				AF0000020000000000000020 /* LabelParserTestView.swift */,
+				AF0000050000000000000007 /* Artwork */,
+				AF0000050000000000000008 /* Museum */,
+				AF0000050000000000000009 /* Exhibition */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF0000050000000000000007 /* Artwork */ = {
+			isa = PBXGroup;
+			children = (
+				AF0000020000000000000008 /* ArtworkListView.swift */,
+				AF0000020000000000000009 /* ArtworkDetailView.swift */,
+				AF0000020000000000000010 /* AddArtworkView.swift */,
+			);
+			path = Artwork;
+			sourceTree = "<group>";
+		};
+		AF0000050000000000000008 /* Museum */ = {
+			isa = PBXGroup;
+			children = (
+				AF0000020000000000000011 /* MuseumListView.swift */,
+				AF0000020000000000000012 /* MuseumDetailView.swift */,
+			);
+			path = Museum;
+			sourceTree = "<group>";
+		};
+		AF0000050000000000000009 /* Exhibition */ = {
+			isa = PBXGroup;
+			children = (
+				AF0000020000000000000013 /* ExhibitionListView.swift */,
+				AF0000020000000000000014 /* ExhibitionDetailView.swift */,
+			);
+			path = Exhibition;
+			sourceTree = "<group>";
+		};
+		AF0000050000000000000010 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AF0000020000000000000015 /* CameraView.swift */,
+				AF0000020000000000000016 /* ImagePicker.swift */,
+				AF0000020000000000000017 /* FilterChip.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF0000060000000000000001 /* ArtFriend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF0000080000000000000001 /* Build configuration list for PBXNativeTarget "ArtFriend" */;
+			buildPhases = (
+				AF0000070000000000000001 /* Sources */,
+				AF0000040000000000000001 /* Frameworks */,
+				AF0000070000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArtFriend;
+			productName = ArtFriend;
+			productReference = AF0000030000000000000001 /* ArtFriend.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF0000090000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AF0000060000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AF0000080000000000000002 /* Build configuration list for PBXProject "ArtFriend" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF0000050000000000000001;
+			productRefGroup = AF0000050000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF0000060000000000000001 /* ArtFriend */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF0000070000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0000010000000000000018 /* Assets.xcassets in Resources */,
+				AF0000010000000000000021 /* test_label.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF0000070000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0000010000000000000001 /* ArtFriendApp.swift in Sources */,
+				AF0000010000000000000002 /* ContentView.swift in Sources */,
+				AF0000010000000000000003 /* Artwork.swift in Sources */,
+				AF0000010000000000000004 /* Museum.swift in Sources */,
+				AF0000010000000000000005 /* Exhibition.swift in Sources */,
+				AF0000010000000000000006 /* OCRService.swift in Sources */,
+				AF0000010000000000000007 /* LabelParserService.swift in Sources */,
+				AF0000010000000000000008 /* ArtworkListView.swift in Sources */,
+				AF0000010000000000000009 /* ArtworkDetailView.swift in Sources */,
+				AF0000010000000000000010 /* AddArtworkView.swift in Sources */,
+				AF0000010000000000000011 /* MuseumListView.swift in Sources */,
+				AF0000010000000000000012 /* MuseumDetailView.swift in Sources */,
+				AF0000010000000000000013 /* ExhibitionListView.swift in Sources */,
+				AF0000010000000000000014 /* ExhibitionDetailView.swift in Sources */,
+				AF0000010000000000000015 /* CameraView.swift in Sources */,
+				AF0000010000000000000016 /* ImagePicker.swift in Sources */,
+				AF0000010000000000000017 /* FilterChip.swift in Sources */,
+				AF0000010000000000000020 /* LabelParserTestView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AF00000A0000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF00000A0000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF00000A0000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArtFriend/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ArtFriend;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artfriend.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF00000A0000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArtFriend/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ArtFriend;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artfriend.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF0000080000000000000001 /* Build configuration list for PBXNativeTarget "ArtFriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF00000A0000000000000003 /* Debug */,
+				AF00000A0000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF0000080000000000000002 /* Build configuration list for PBXProject "ArtFriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF00000A0000000000000001 /* Debug */,
+				AF00000A0000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF0000090000000000000001 /* Project object */;
+}
